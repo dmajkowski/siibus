@@ -1,0 +1,17 @@
+* {
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+.header > a {
+  background: url(https://sii.pl/wp-content/themes/sii-sage/resources/assets/images/logo-sii.png)
+    no-repeat center center;
+  background-size: 100%;
+  width: 100px;
+  height: 100px;
+  display: block;
+}

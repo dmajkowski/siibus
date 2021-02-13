@@ -8,7 +8,7 @@ const routes = {
   "/my-orders": () => <MyOrders />,
   "/news": () => <News />,
   "/our-menu": () => <OurMenu />,
-  "/our-menu": () => <MyProfile />
+  "/my-profile": () => <MyProfile />
 };
 
 export default routes;
